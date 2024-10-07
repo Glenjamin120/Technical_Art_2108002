@@ -8,4 +8,4 @@
 
 ### Research
 
-<video src="Anti_Aliasing/Videos/FXAA.mp4" ></video>
+https://github.com/user-attachments/assets/caa605af-b0c9-4281-aaac-7994dc63250b
