@@ -8,3 +8,4 @@
 
 ### Research
 
+<video src="Technical_Art_2108002/Anti Aliasing/Videos
