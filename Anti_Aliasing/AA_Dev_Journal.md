@@ -1,12 +1,29 @@
 # Anti Aliasing
 
-**Techical Art**  
+**Technical Art**  
 
 **Syed Hashim Hussain**  
 
 **2108002**  
 
-### Research
+# 
+
+### **Research**
+
+#### Anti Aliasing
+
+Anti Aliasing is the technique used to remove the problem of jagged and uneven edges caused by colours being rendered incorrectly because of a pixel containing more or less information.
+
+## Types of AA
+### Super Sampling Anti-Aliasing 
+
+This is the proccess of the GPU calculating the current scene in a higher resolution, and then correcting it to the resolution it should be. This will then allow the GPU to collect more samples of each pixel. Unfortunately, it isn't considered a good practice as it is taking extra work for the GPU to produce these samples and would affect the frame rate negatively compared to how much work it takes to produce the scene.
+
+### Mutli Sample Anti-Aliasing
+
+This technique is very similar to *Super Sampling AA*. It still takes a higher resolution than normal, *However*, it only takes the sample in the rasterisation phase (when a 3D object is processed into a 2D image). It in essense is performing Super Sampling in a more efficient way by focusing just the edges of the scene, where the Anti-Aliasing is needed the most.
+
+
 
 
 ### Testing different Anti Aliasing Methods
