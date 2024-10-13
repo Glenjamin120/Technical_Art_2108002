@@ -29,14 +29,15 @@ When it comes to performance, MSAA and SSAA is very costly, so this is where peo
 
 ### TAA 
 
+This is a very commonly used Anti-Aliasing Technique in video games and real time applications. In simple terms, this techinique will blend the past frames with the current frame. This form of AA is very good when it comes to fast moving scenes
 
 
 
 ### Testing different Anti Aliasing Methods
-https://github.com/user-attachments/assets/caa605af-b0c9-4281-aaac-7994dc63250b
+<iframe src="https://youtu.be/14xDcDIbAT0?si=iEWTgo9p9oD5mPFo" title="FXAA"></iframe>
 
-https://github.com/user-attachments/assets/bd8a7613-ab16-4858-bd9a-a2207d3e1a7b
+<iframe src="https://youtu.be/-KsjrGQ8Z44?si=b8KJN0ZKKUv0-_0s" title="MSAA"></iframe>
 
-https://github.com/user-attachments/assets/4c12e6eb-fd11-4011-974a-15b3cf5c6390
+<iframe src="https://youtu.be/5pfEjXz_YRs?si=Alnbu5g-y8Ts7UDr" title="No AA"></iframe>
 
-https://github.com/user-attachments/assets/b901810a-5f21-4ca4-9767-84a19e668c20
+<iframe src="https://youtu.be/YFO_xAyOVYY?si=E-O0Xx5x4RP7Rzbl" title="TAA"></iframe>
