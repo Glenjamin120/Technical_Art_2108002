@@ -34,7 +34,9 @@ This is a very commonly used Anti-Aliasing Technique in video games and real tim
 
 
 ### Testing different Anti Aliasing Methods
-<iframe src="https://youtu.be/14xDcDIbAT0?si=iEWTgo9p9oD5mPFo" title="FXAA"></iframe>
+<iframe width="560" height="315" src="https://youtu.be/14xDcDIbAT0?si=hNmUY5O0YislzomT" 
+title="FXAA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 <iframe src="https://youtu.be/-KsjrGQ8Z44?si=b8KJN0ZKKUv0-_0s" title="MSAA"></iframe>
 
