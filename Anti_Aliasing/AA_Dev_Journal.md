@@ -34,12 +34,10 @@ This is a very commonly used Anti-Aliasing Technique in video games and real tim
 
 
 ### Testing different Anti Aliasing Methods
-<iframe width="560" height="315" src="https://youtu.be/14xDcDIbAT0?si=hNmUY5O0YislzomT" 
-title="FXAA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/14xDcDIbAT0?si=hNmUY5O0YislzomT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe src="https://youtu.be/-KsjrGQ8Z44?si=b8KJN0ZKKUv0-_0s" title="MSAA"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-KsjrGQ8Z44?si=JcJs7LZTrXAKQIhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe src="https://youtu.be/5pfEjXz_YRs?si=Alnbu5g-y8Ts7UDr" title="No AA"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5pfEjXz_YRs?si=p2ieM_pvpWxBXJzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe src="https://youtu.be/YFO_xAyOVYY?si=E-O0Xx5x4RP7Rzbl" title="TAA"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YFO_xAyOVYY?si=6sBNenkIXFSmZSJu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
