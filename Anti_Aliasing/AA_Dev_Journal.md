@@ -6,15 +6,18 @@
 
 **2108002**  
 
-# 
+ 
 
-### **Research**
+## **Research**
 
 #### Anti Aliasing
 
 Anti Aliasing is the technique used to remove the problem of jagged and uneven edges caused by colours being rendered incorrectly because of a pixel containing more or less information.
 
-## Types of AA
+## **Types of AA**
+
+### Fast Aprproximate Anti-Aliasing
+FXAA can be considered the fastest AA method being used as it doesn't have a huge priority to image quality. This is why it is commonly used for lower end hardware. While using this performance has little issues, due to image after rendereing is changed, the image quality isn't considered 
 ### Super Sampling Anti-Aliasing 
 
 This is the proccess of the GPU calculating the current scene in a higher resolution, and then correcting it to the resolution it should be. This will then allow the GPU to collect more samples of each pixel. Unfortunately, it isn't considered a good practice as it is taking extra work for the GPU to produce these samples and would affect the frame rate negatively compared to how much work it takes to produce the scene.
@@ -27,7 +30,7 @@ This technique is very similar to *Super Sampling AA*. It still takes a higher r
 
 When it comes to performance, MSAA and SSAA is very costly, so this is where people can implenent Post Proccessing AA. It doesn't have as good quality as other types of Anti Aliasing but is greatly increases performance. This method goes about by using the final image of the rendered scene and uses different techniques to blur the aliasing.
 
-### TAA 
+### Temporal Anti-Aliasing 
 
 This is a very commonly used Anti-Aliasing Technique in video games and real time applications. In simple terms, this techinique will blend the past frames with the current frame. This form of AA is very good when it comes to fast moving scenes
 
