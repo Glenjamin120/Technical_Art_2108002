@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/2108002/Documents/GitHub/Technical_Art_2108002/Unreal_Project/Content/Material/MovingShape/Texture_M_Inst.uasset",
+				"C:/Users/2108002/Documents/GitHub/Technical_Art_2108002/Unreal_Project/Content/Material/MovingShape/Texture_M.uasset",
+				"C:/Users/2108002/Documents/GitHub/Technical_Art_2108002/Unreal_Project/Content/Level/Grow.umap",
+				"C:/Users/2108002/Documents/GitHub/Technical_Art_2108002/Unreal_Project/Content/Game/BP_ClickerGameInstance.uasset",
+				"C:/Users/2108002/Documents/GitHub/Technical_Art_2108002/Unreal_Project/Content/ThirdPerson/Blueprints/BP_Clicker.uasset",
+				"C:/Users/2108002/Documents/GitHub/Technical_Art_2108002/Unreal_Project/Content/Game/Blueprints/BP_ClickObject.uasset",
+				"C:/Users/2108002/Documents/GitHub/Technical_Art_2108002/Unreal_Project/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
 				"C:/Users/hashi/Documents/Unreal Projects/Technical_Art/Content/Material/ChangingShape_1/ChangeTest_MI.uasset",
 				"C:/Users/hashi/Documents/Unreal Projects/Technical_Art/Content/Material/ChangingShape_1/ChangingShape_M.uasset",
 				"C:/Users/hashi/Documents/Unreal Projects/Technical_Art/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U3/0ZOBZE49IUDKGUXE4BPGYE.uasset",
