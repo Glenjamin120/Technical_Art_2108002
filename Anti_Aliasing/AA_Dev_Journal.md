@@ -38,7 +38,13 @@ This is a very commonly used Anti-Aliasing Technique in video games and real tim
 
 Luckily, I was able to find a range of sources for this task, all ranging from a comparison of techiniques and some examples that deep dive into a single technique. 
 
-Starting off with the source that was used the most for all the definitions - (Comparison and Analysis between Different Versions of FXAA | IEEE Conference Publication | IEEE Xplore, s.d.) This was a great source for this topic, as the publisher is one of the biggest leading technilogical organisations. It provided me an insight on many different types of AA, inluding "Super Sampling Anti-Aliasing" and "Post Proccessing Anti-Aliasing".  
+Starting off with the source that was used the most for all the definitions - (Comparison and Analysis between Different Versions of FXAA | IEEE Conference Publication | IEEE Xplore, s.d.) This was a great source for this topic, as the publisher is one of the biggest leading technilogical organisations. It provided me an insight on many different types of AA, inluding "Super Sampling Anti-Aliasing" and "Post Proccessing Anti-Aliasing". Also, by using this source, I was able to define how each technique was able to do its job and what the outcome of itd work would be: either a performance based output or a visual based output.
+
+Next, I used one source to help me understand rasteriztion better.(Caulfield, 2018)
+
+
+
+
 
 
 ### Testing different Anti Aliasing Methods
