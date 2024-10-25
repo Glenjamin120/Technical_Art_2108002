@@ -18,6 +18,7 @@ Anti Aliasing is the technique used to remove the problem of jagged and uneven e
 
 ### Fast Aprproximate Anti-Aliasing
 FXAA can be considered the fastest AA method being used as it doesn't have a huge priority to image quality. This is why it is commonly used for lower end hardware. While using this performance has little issues, due to image after rendereing is changed, the image quality isn't considered 
+
 ### Super Sampling Anti-Aliasing 
 
 This is the proccess of the GPU calculating the current scene in a higher resolution, and then correcting it to the resolution it should be. This will then allow the GPU to collect more samples of each pixel. Unfortunately, it isn't considered a good practice as it is taking extra work for the GPU to produce these samples and would affect the frame rate negatively compared to how much work it takes to produce the scene.
@@ -55,6 +56,16 @@ Next, I used one source to help me understand rasteriztion better.(Caulfield, 20
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5pfEjXz_YRs?si=p2ieM_pvpWxBXJzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YFO_xAyOVYY?si=6sBNenkIXFSmZSJu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## **Reflection**
+### What went well 
+- I learnt a lot about Anti Aliasing and how it can be used for different applications
+- I was able to implement different types of AA and research about new types I haven't heard about before
+
+### What would I do differently
+- I would try to show a bigger difference in my examples
+
+
 
 ## **Bibliography**
 
