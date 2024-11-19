@@ -39,16 +39,15 @@ This is a very commonly used Anti-Aliasing Technique in video games and real tim
 
 Luckily, I was able to find a range of sources for this task, all ranging from a comparison of techiniques and some examples that deep dive into a single technique. 
 
-Starting off with the source that was used the most for all the definitions - (Comparison and Analysis between Different Versions of FXAA | IEEE Conference Publication | IEEE Xplore, s.d.) This was a great source for this topic, as the publisher is one of the biggest leading technilogical organisations. It provided me an insight on many different types of AA, inluding "Super Sampling Anti-Aliasing" and "Post Proccessing Anti-Aliasing". Also, by using this source, I was able to define how each technique was able to do its job and what the outcome of itd work would be: either a performance based output or a visual based output.
+Starting off with the source that was used the most for all the definitions was the article "Comparison and Analysis between Different Versions of FXAA" (IEEE Xplore). This was a great source for this topic, as the publisher is one of the biggest leading technilogical organisations. It provided me an insight on many different types of AA, inluding "Super Sampling Anti-Aliasing" and "Post Proccessing Anti-Aliasing". Also, by using this source, I was able to define how each technique was able to do its job and what the outcome of itd work would be: either a performance based output or a visual based output.
 
-Next, I used one source to help me understand rasteriztion better.(Caulfield, 2018)
-
-
-
-
-
+Next, Caufields "What's the difference between Ray Tracing and Rasterization" was a huge help in my understanding of Ray Tracing and Rasterization. I waz struggling how to explain MSAA and this source made it clear for me. 
+ 
+## **Implementation**
 
 ### Testing different Anti Aliasing Methods
+To test Anti-Aliasing myself, I implemented FXAA, MSAA and TAA with a basic example.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/14xDcDIbAT0?si=hNmUY5O0YislzomT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-KsjrGQ8Z44?si=JcJs7LZTrXAKQIhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -63,19 +62,14 @@ Next, I used one source to help me understand rasteriztion better.(Caulfield, 20
 - I was able to implement different types of AA and research about new types I haven't heard about before
 
 ### What would I do differently
-- I would try to show a bigger difference in my examples
+- Next time, I would give more dynamic examples of AA and demonstrate the differences more.
+- Try to condence my writing into a smaller more detailed document.
 
 
 
 ## **Bibliography**
 
-Caulfield, B. (2018) What’s the Difference Between Ray Tracing and Rasterization? At: https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/ (Accessed  10/10/2024).
+IEEE Xplore (s.d.) *Comparison and Analysis between Different Versions of FXAA.* At: https://ieeexplore.ieee.org/abstract/document/9730249 (Accessed 10/10/2024)
 
-Comparison and Analysis between Different Versions of FXAA | IEEE Conference Publication | IEEE Xplore (s.d.) At: https://ieeexplore.ieee.org/abstract/document/9730249 (Accessed  10/10/2024).
-
-Lottes, T. (s.d.) 'Version Date Responsible Reason for Change' | At: https://developer.download.nvidia.com/assets/gamedev/files/sdk/11/FXAA_WhitePaper.pdf (Accessed 11/10/2024)
-
-Nah, J.-H., Ki, S., Lim, Y., Park, J. and Shin, C. (2016) 'AXAA: adaptive approximate anti-aliasing' In: ACM SIGGRAPH 2016 Posters. SIGGRAPH ’16: Special Interest Group on Computer Graphics and Interactive Techniques Conference. Anaheim California: ACM. pp.1–2. At: https://dl.acm.org/doi/10.1145/2945078.2945129 (Accessed  16/10/2024).
-
-Yang, L., Liu, S. and Salvi, M. (2020) 'A Survey of Temporal Antialiasing Techniques' In: Computer Graphics Forum 39 (2) pp.607–621. | At: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.14018 (Accessed 13/10/2024)
+Caulfield, B. (2018) *What’s the Difference Between Ray Tracing and Rasterization?* At: https://blogs.nvidia.com/blog/whats-difference-between-ray-tracing-rasterization/ (Accessed 10/10/2024)
 
