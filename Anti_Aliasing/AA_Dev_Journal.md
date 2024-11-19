@@ -17,29 +17,29 @@ Anti-Aliasing is the technique used to remove the problem of jagged and uneven e
 ## **Types of AA**
 
 ### Fast Approximate Anti-Aliasing
-FXAA can be considered the fastest AA method being used as it doesn't have a huge priority to image quality. This is why it is commonly used for lower end hardware. While using this performance has little issues, due to image after rendereing is changed, the image quality isn't considered 
+FXAA can be considered the fastest AA method being used as it doesn't have a huge priority to image quality. This is why it is commonly used for lower end hardware. While using this performance has little issues, due to image after rendering is changed, the image quality isn't considered 
 
 ### Super Sampling Anti-Aliasing 
 
 This is the process of the GPU calculating the current scene in a higher resolution, and then correcting it to the resolution it should be. This will then allow the GPU to collect more samples of each pixel. Unfortunately, it isn't considered a good practice as it is taking extra work for the GPU to produce these samples and would affect the frame rate negatively compared to how much work it takes to produce the scene.
 
-### Mutli Sample Anti-Aliasing
+### Multi Sample Anti-Aliasing
 
-This technique is very similar to *Super Sampling AA*. It still takes a higher resolution than normal, *However*, it only takes the sample in the rasterization phase (when a 3D object is processed into a 2D image). It in essense is performing Super Sampling in a more efficient way by focusing just the edges of the scene, where the Anti-Aliasing is needed the most.
+This technique is very similar to *Super Sampling AA*. It still takes a higher resolution than normal, *However*, it only takes the sample in the rasterization phase (when a 3D object is processed into a 2D image). It in essence is performing Super Sampling in a more efficient way by focusing just the edges of the scene, where the Anti-Aliasing is needed the most.
 
-### Post Proccessing Anti-Aliasing 
+### Post Processing Anti-Aliasing 
 
-When it comes to performance, MSAA and SSAA is very costly, so this is where people can implenent Post Processing AA. It doesn't have as good quality as other types of Anti Aliasing but is greatly increases performance. This method goes about by using the final image of the rendered scene and uses different techniques to blur the aliasing.
+When it comes to performance, MSAA and SSAA is very costly, so this is where people can implement Post Processing AA. It doesn't have as good quality as other types of Anti Aliasing but is greatly increases performance. This method goes about by using the final image of the rendered scene and uses different techniques to blur the aliasing.
 
 ### Temporal Anti-Aliasing 
 
-This is a very commonly used Anti-Aliasing Technique in video games and real time applications. In simple terms, this techinique will blend the past frames with the current frame. This form of AA is very good when it comes to fast moving scenes
+This is a very commonly used Anti-Aliasing Technique in video games and real time applications. In simple terms, this technique will blend the past frames with the current frame. This form of AA is very good when it comes to fast moving scenes
 
 ## **Source**
 
-Luckily, I was able to find a range of sources for this task, all ranging from a comparison of techiniques and some examples that deep dive into a single technique. 
+Luckily, I was able to find a range of sources for this task, all ranging from a comparison of techniques and some examples that deep dive into a single technique. 
 
-Starting off with the source that was used the most for all the definitions was the article "Comparison and Analysis between Different Versions of FXAA" (IEEE Xplore). This was a great source for this topic, as the publisher is one of the biggest leading technilogical organisations. It provided me an insight on many different types of AA, inluding "Super Sampling Anti-Aliasing" and "Post Processing Anti-Aliasing". Also, by using this source, I was able to define how each technique was able to do its job and what the outcome of itd work would be: either a performance based output or a visual based output.
+Starting off with the source that was used the most for all the definitions was the article "Comparison and Analysis between Different Versions of FXAA" (IEEE Xplore). This was a great source for this topic, as the publisher is one of the biggest leading technological organisations. It provided me an insight on many different types of AA, including "Super Sampling Anti-Aliasing" and "Post Processing Anti-Aliasing". Also, by using this source, I was able to define how each technique was able to do its job and what the outcome of its work would be: either a performance based output or a visual based output.
 
 Next, Caufields "What's the difference between Ray Tracing and Rasterization" was a huge help in my understanding of Ray Tracing and Rasterization. I was struggling how to explain MSAA and this source made it clear for me. 
  
@@ -63,7 +63,7 @@ To test Anti-Aliasing myself, I implemented FXAA, MSAA and TAA with a basic exam
 
 ### What would I do differently
 - Next time, I would give more dynamic examples of AA and demonstrate the differences more, for example I could show how different Anti-Aliasing techniques affect shaders and materials more than others.
-- Try to condence my writing into a smaller more detailed document.
+- Try to condense my writing into a smaller more detailed document.
 
 ## **Bibliography**
 
