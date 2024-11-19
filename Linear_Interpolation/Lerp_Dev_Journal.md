@@ -29,3 +29,7 @@ A very common framework use of this node will be adding two inputs and using the
 ### **Implementation**
 
 In Example 1, I have used a cosine value to demonstrate how a lerp can be used to change a texture in a material. The value is switching between two different noise nodes and the alpha is being controlled by a cosine node, which allows for a very cool looking material.
+
+<iframe src="https://blueprintue.com/render/l2qe70sd/" scrolling="no" allowfullscreen></iframe>
+
+<iframe src="https://blueprintue.com/render/nfirnlts/" scrolling="no" allowfullscreen></iframe>
