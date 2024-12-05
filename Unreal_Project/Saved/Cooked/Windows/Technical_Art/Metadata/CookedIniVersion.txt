@@ -1,8 +1,8 @@
 [UsedSettings]
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Game/Game/BP_ClickerGameInstance.BP_ClickerGameInstance_C
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Level/Grow.Grow
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Game/Level/MainMenu.MainMenu
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Game/ThirdPerson/Blueprints/BP_ClickerGame.BP_ClickerGame_C
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Game/Gamemode/BP_MainMenu.BP_MainMenu_C
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Windows.Engine:Core.System:CanUseUnversionedPropertySerialization:0=True
 Windows.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=/Engine/MobileResources/HUD/DefaultVirtualJoysticks.DefaultVirtualJoysticks
@@ -147,10 +147,10 @@ Interchange:/Script/InterchangePipelines.MaterialXPipelineSettings:PredefinedEDF
 Interchange:/Script/InterchangePipelines.MaterialXPipelineSettings:PredefinedVDF:0=((Absorption, "/Interchange/Functions/MX_AbsorptionVDF.MX_AbsorptionVDF"),(Anisotropic,"/Interchange/Functions/MX_AnisotropicVDF.MX_AnisotropicVDF"))
 MetaHumanProjectUtilities:/Script/MetaHumanProjectUtilities.MetaHumanProjectUtilitiesSettings:VersionServiceBaseUrl:0="https//metahuman-versioning.ucs.on.epicgames.com"
 Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Game/Game/BP_ClickerGameInstance.BP_ClickerGameInstance_C
-Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Level/Grow.Grow
-Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Level/Grow.Grow
+Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Game/Level/MainMenu.MainMenu
+Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Game/Level/MainMenu.MainMenu
 Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Game/ThirdPerson/Blueprints/BP_ClickerGame.BP_ClickerGame_C
+Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Game/Gamemode/BP_MainMenu.BP_MainMenu_C
 Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
 Engine:/Script/EngineSettings.GameMapsSettings:TransitionMap:0=
 Engine:/Script/EngineSettings.GameMapsSettings:bUseSplitscreen:0=True
@@ -396,6 +396,7 @@ Engine:/Script/Engine.RendererSettings:r.Mobile.EnableNoPrecomputedLightingCSMSh
 Engine:/Script/Engine.RendererSettings:r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0=true
 Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.HighlightContrastScale:0=0.8
 Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.ShadowContrastScale:0=0.8
+Engine:/Script/Engine.RendererSettings:r.Substrate:0=True
 Engine:/Script/Engine.RendererSettings:r.Shaders.RemoveUnusedInterpolators:0=1
 Engine:/Script/OnlineSubsystemUtils.IpNetDriver:ConnectionTimeout:0=60.0
 Engine:/Script/OnlineSubsystemUtils.IpNetDriver:InitialConnectTimeout:0=60.0
@@ -748,9 +749,9 @@ Engine:/Script/ChaosVD.ChaosVDEditorSettings:SimOnlyMeshesMaterial:0=/ChaosVD/Ma
 Engine:/Script/ChaosVD.ChaosVDEditorSettings:InstancedMeshesMaterial:0=/ChaosVD/Materials/ChaosVDInstanced.ChaosVDInstanced
 Engine:/Script/ChaosVD.ChaosVDEditorSettings:InstancedMeshesQueryOnlyMaterial:0=/ChaosVD/Materials/ChaosVDInstancedQueryOnly.ChaosVDInstancedQueryOnly
 Engine:/Script/ChaosVD.ChaosVDEditorSettings:SkySphereActorClass:0=/ChaosVD/BP_CVD_SkySphere.BP_CVD_SkySphere_C
-Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:StagingDirectory:0=(Path="C/Users/hashi/Desktop")
+Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:StagingDirectory:0=(Path="C/Users/hashi/Desktop/Game Buillds/Build 2")
+Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformBuildConfig:0=(("Windows", PPBC_Shipping))
 Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:LaunchOnTarget:0=
-Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformBuildConfig:0=()
 Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformTargetFlavorName:0=(("Android", "Android_ASTC"))
 Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformBuildTarget:0=()
 Game:Internationalization:LocalizationPaths:0=%GAMEDIR%Content/Localization/Game
